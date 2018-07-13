@@ -195,3 +195,21 @@ figure {
 .about > p {
   margin: 0;
 }
+
+/* Beginning of browser changes */
+
+@media screen and (min-width: 768px) {
+
+  .site-nav {
+    position: fixed;
+    width: 50px;
+    top: 0;
+    right: auto;
+    background-color: red;
+  }
+
+  .movie-overview {
+    display: inline-block;
+  }
+
+}
