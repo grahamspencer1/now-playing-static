@@ -202,14 +202,34 @@ figure {
 
   .site-nav {
     position: fixed;
-    width: 50px;
+    width: 80px;
+    height: 100%;
     top: 0;
     right: auto;
-    background-color: red;
+    margin-right: auto;
+  }
+
+  .site-nav-list {
+    margin-top: 5em;
+  }
+
+  .site-nav-item {
+    width: 100%;
   }
 
   .movie-overview {
     display: inline-block;
+  }
+
+  .site-logo {
+    z-index: 200;
+    padding: 10px;
+    left: auto;
+    top: auto;
+  }
+
+  .about {
+    float: right;
   }
 
 }
