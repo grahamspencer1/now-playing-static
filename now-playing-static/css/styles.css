@@ -232,4 +232,8 @@ figure {
     float: right;
   }
 
+  .movie {
+    margin-left: 80px;
+  }
+
 }
