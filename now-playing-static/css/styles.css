@@ -236,4 +236,8 @@ figure {
     margin-left: 80px;
   }
 
+  .movie-backdrop {
+    width: 100%;
+  }
+
 }
