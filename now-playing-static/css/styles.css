@@ -241,3 +241,23 @@ figure {
   }
 
 }
+
+@media screen and (min-width: 992px) {
+
+  .movie-poster {
+    display: block;
+  }
+
+  .movie:first-child .movie-poster {
+    display: none;
+  }
+
+  .movie-backdrop {
+    display: none;
+  }
+
+  .movie:first-child .movie-backdrop {
+    display: block;
+  }
+
+}
