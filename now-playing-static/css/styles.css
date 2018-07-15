@@ -232,12 +232,22 @@ figure {
     float: right;
   }
 
-  .movie {
+  main {
     margin-left: 80px;
   }
 
   .movie-backdrop {
     width: 100%;
+  }
+
+  .site-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 80px;
+  }
+
+  body {
+    padding-bottom: 0;
   }
 
 }
@@ -258,6 +268,23 @@ figure {
 
   .movie:first-child .movie-backdrop {
     display: block;
+  }
+
+  .movie-overview {
+    display: none;
+  }
+
+  .movie:first-child .movie-overview {
+    display: block;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 33.33%;
+  }
+
+  .movie:first-child {
+    grid-column: span 3;
   }
 
 }
